@@ -1,0 +1,32 @@
+	h1{
+		color:blue;
+		font-style:italic;
+		text-align: center;	
+	}
+	h3{
+		color:purple;
+		font-style: italic;
+		text-decoration: underline;
+		text-align: right;
+		
+	}
+	body{
+		font-family: arial;
+		font-weight: bold;
+		color: red;
+		font-style: italic;
+	}
+	p{
+		font-style: italic;
+		text-decoration: blink;
+		text-align: left;
+		font-weight: 400;
+	}
+	h6{
+		text-decoration: underline;
+	}
+	p2{
+		font-style: italic;
+		font-variant: small-caps;
+
+	}

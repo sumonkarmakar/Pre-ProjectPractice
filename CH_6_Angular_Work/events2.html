@@ -1,0 +1,23 @@
+<!--Mouse Hover events using angular-->
+<!DOCTYPE html>
+<html>
+	<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	</head>
+	<body>
+		<div ng-app="myApp" ng-controller="myCtrl">
+			<h2>Hit this button to see effect!</h2>
+
+			<button ng-click="count = count + 1">Click Me!</button>
+
+			<p>{{ count }}</p>
+
+		</div>
+		<script>
+			var app = angular.module('myApp', []);
+			app.controller('myCtrl', function($scope) {
+    		$scope.count = 0;
+		});
+		</script> 
+	</body>
+</html>
